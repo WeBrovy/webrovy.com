@@ -147,6 +147,19 @@ img {
   text-decoration: none;
 }
 
+.nav-wordmark {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--primary);
+  letter-spacing: -0.3px;
+}
+
+.nav-wordmark em {
+  font-style: normal;
+  color: var(--accent);
+}
+
 .nav-logo small {
   font-weight: 400;
   color: var(--gray-600);
@@ -154,9 +167,9 @@ img {
 }
 
 .logo-icon {
-  width: 32px;
-  height: 32px;
-  color: var(--primary);
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
 }
 
 .nav-links {
@@ -1205,6 +1218,12 @@ img {
   color: var(--white);
   margin-bottom: 0.75rem;
   display: block;
+  letter-spacing: -0.3px;
+}
+
+.footer-logo em {
+  font-style: normal;
+  color: var(--accent-light);
 }
 
 .footer-logo small {

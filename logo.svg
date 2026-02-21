@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 56" fill="none">
+  <!-- Pulse Icon -->
+  <g transform="translate(4, 6)">
+    <!-- Rounded rectangle container -->
+    <rect x="0" y="0" width="44" height="44" rx="10" fill="#1a5276"/>
+    <!-- Pulse line -->
+    <path d="M8 24 L14 24 L17.5 14 L22 34 L26.5 10 L30 24 L36 24"
+          stroke="#1abc9c" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Subtle glow on the peak -->
+    <circle cx="26.5" cy="10" r="2" fill="#1abc9c" opacity="0.4"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="60" y="39" font-family="'Georgia', 'Merriweather', serif" font-size="30" font-weight="700" fill="#1a5276" letter-spacing="-0.5">
+    <tspan>We</tspan><tspan fill="#148f77">Brovy</tspan>
+  </text>
+</svg>
